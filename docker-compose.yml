@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  dash-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: techtest:latest 
+    ports:
+      - "4500:8081"
